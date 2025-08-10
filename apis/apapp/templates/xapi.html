@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>
+        coming soon {{done}}
+        <br>
+    </p><br>
+    <ul>
+            {% for stob in mycoll %}
+            <li>
+                {{stob.name}}
+            </li>
+            {% endfor %}
+    </ul>
+    
+    <ul>
+
+        <li>
+            {{stud.name}}
+        </li>
+        <li>
+            {{stud.phone_no}}
+        </li>
+        <li>
+            {{stud.address}}
+        </li>
+
+    </ul>
+</body>
+
+</html>
